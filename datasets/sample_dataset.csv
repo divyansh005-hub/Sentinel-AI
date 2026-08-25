@@ -1,0 +1,8 @@
+date,country,city,region,latitude,longitude,attack_type,target_type,weapon_type,group_name,fatalities,injuries,property_damage,summary,source
+2020-01-15,Iraq,Baghdad,Middle East,33.3152,44.3661,Bombing/Explosion,Military,Explosives,Unknown,3,10,50000.0,A roadside bomb targeted a military convoy.,Intel Report A
+2021-03-22,Afghanistan,Kabul,South Asia,34.5553,69.2075,Armed Assault,Police,Firearms,Taliban,5,2,10000.0,Armed gunmen attacked a police checkpoint leaving multiple casualties.,News Source B
+2022-06-10,Nigeria,Maiduguri,Sub-Saharan Africa,11.8333,13.1500,Assassination,Government,Firearms,Boko Haram,1,0,0.0,A local government official was targeted in his vehicle.,Internal Memo
+2023-09-05,Somalia,Mogadishu,Sub-Saharan Africa,2.0469,45.3182,Bombing/Explosion,Civilians,Explosives,Al-Shabaab,12,25,100000.0,A suicide bomber detonated an explosive device in a crowded market area.,UN Report
+2024-02-18,Syria,Idlib,Middle East,35.9306,36.6339,Armed Assault,Military,Firearms,Unknown,4,7,20000.0,Rebel forces engaged in a firefight with government troops near the border.,Defense Update
+2024-05-12,Mali,Bamako,Sub-Saharan Africa,12.6392,-8.0029,Hostage Taking,Civilians,Firearms,JNIM,0,1,5000.0,Insurgents took two foreign nationals hostage.,Global News
+2025-01-03,Colombia,Bogota,South America,4.7110,-74.0721,Bombing/Explosion,Police,Explosives,ELN,2,14,75000.0,Explosive device detonated near a police station.,Regional Update

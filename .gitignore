@@ -1,0 +1,63 @@
+﻿# Secrets & Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large Dataset Files (too big for GitHub)
+datasets/GTD/*.xlsx
+datasets/GTD/*.csv
+datasets/ACLED/*.xlsx
+datasets/ACLED/*.csv
+datasets/GDELT*.TXT
+datasets/GDELT*.txt
+datasets/processed/*.parquet
+datasets/processed/*.csv
+
+# ML Models (binary, large)
+models/*.pkl
+models/*.index
+models/*.bin
+
+# Database
+database/*.db
+database/*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+
+# Generated reports
+reports/generated_reports/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

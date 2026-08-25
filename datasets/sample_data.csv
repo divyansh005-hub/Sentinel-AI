@@ -1,0 +1,6 @@
+date,country,city,latitude,longitude,attack_type,target_type,weapon_type,group_name,fatalities,injuries,summary,region
+2020-01-15,Iraq,Baghdad,33.3152,44.3661,Bombing/Explosion,Military,Explosives,Unknown,3,10,A roadside bomb targeted a military convoy.,Middle East
+2021-03-22,Afghanistan,Kabul,34.5553,69.2075,Armed Assault,Police,Firearms,Taliban,5,2,"Armed gunmen attacked a police checkpoint, leaving multiple casualties.",South Asia
+2022-06-10,Nigeria,Maiduguri,11.8333,13.1500,Assassination,Government,Firearms,Boko Haram,1,0,A local government official was targeted in his vehicle.,Sub-Saharan Africa
+2023-09-05,Somalia,Mogadishu,2.0469,45.3182,Bombing/Explosion,Civilians,Explosives,Al-Shabaab,12,25,A suicide bomber detonated an explosive device in a crowded market area.,Sub-Saharan Africa
+2024-02-18,Syria,Idlib,35.9306,36.6339,Armed Assault,Military,Firearms,Unknown,4,7,Rebel forces engaged in a firefight with government troops near the border.,Middle East
