@@ -5,9 +5,13 @@ import threading
 import time
 import os
 import sys
+import socket
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+def is_port_in_use(port):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        return s.connect_ex(('127.0.0.1', port)) == 0
 
 def _start_api():
     import uvicorn
@@ -19,11 +23,12 @@ def _start_api():
         reload=False,
     )
 
-
-# Launch FastAPI in a background daemon thread
-_thread = threading.Thread(target=_start_api, daemon=True)
-_thread.start()
-time.sleep(2)  # Give FastAPI time to bind to port
+# Only launch if the port isn't already bound (Streamlit reruns this file on every interaction!)
+if not is_port_in_use(8001):
+    _thread = threading.Thread(target=_start_api, daemon=True)
+    _thread.start()
+    time.sleep(2)  # Give FastAPI time to bind to port
 
 # Run the main Streamlit frontend
 from frontend.app import *
+
