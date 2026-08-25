@@ -18,6 +18,11 @@ def setup():
     os.makedirs("database", exist_ok=True)
     os.makedirs(settings.REPORTS_DIR, exist_ok=True)
     
+    # Create SQLite database tables if they don't exist
+    from database.sqlite_db import engine, Base
+    Base.metadata.create_all(bind=engine)
+
+    
     # 1. Run Data Loader (Pipeline -> SQLite)
     logger.info("Phase 1: Running Data Pipeline & Database Ingestion...")
     try:
