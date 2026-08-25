@@ -1,3 +1,5 @@
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 import streamlit as st
 from frontend.theme import apply_theme, risk_badge
 from frontend.components.widgets import render_risk_level_card, plot_feature_importance, render_incident_card, render_status_bar, plot_threat_probabilities
